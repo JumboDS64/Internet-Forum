@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Offhand</title>
+    <style>
+      html {
+        background:#f0f8ff;
+      }
+      h1 {
+        color:#202830;
+        border:5px solid #c0c8d0;
+        background: linear-gradient(#f0f8ff, #c0c8d0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Offhand</h1>
+    <ul>
+      <% Message.all.each do |item| %>
+        <li><%= item.username %>: <%= item.text %></li>
+      <% end %>
+    </ul>
+    <form action="/new_message">
+      Username:<br>
+      <input type="text" name="username">
+      <br>
+      Text:<br>
+      <input type="text" name="text"><br>
+      <input type="image" src="images/submit.png" alt="Submit">
+    </form>
+  </body>
+</html>
