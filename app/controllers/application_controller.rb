@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   get "/new_message" do
-    message = Message.new({:username => params[:username], :text => params[:text]})
+    message = Message.new({:user => params[:user], :content => params[:content]})
     message.save
     redirect "/"
   end

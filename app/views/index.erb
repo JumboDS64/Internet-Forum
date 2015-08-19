@@ -17,7 +17,7 @@
     <h1>Offhand</h1>
     <ul>
       <% Message.all.each do |item| %>
-        <li><%= item.username %>: <%= item.text %></li>
+      <li><%= item.user %>: <%= item.content %></li>
       <% end %>
     </ul>
     <form action="/new_message">
