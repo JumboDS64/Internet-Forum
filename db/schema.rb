@@ -11,14 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150819174704) do
+ActiveRecord::Schema.define(version: 20150820152402) do
 
   create_table "messages", force: :cascade do |t|
     t.string   "content"
-    t.string   "user"
     t.datetime "timestamp"
     t.integer  "upvotes"
     t.integer  "downvotes"
+    t.integer  "user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "pass"
+    t.string   "avatar"
+    t.string   "description"
+    t.string   "signature"
+    t.string   "gender"
+    t.datetime "createtime"
+    t.datetime "activetime"
+    t.date     "birthdate"
+    t.time     "birthtime"
   end
 
 end

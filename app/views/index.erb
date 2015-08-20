@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Offhand</title>
+    <title>A forum.</title>
     <style>
       html {
         background:#f0f8ff;
@@ -14,18 +14,24 @@
     </style>
   </head>
   <body>
-    <h1>Offhand</h1>
+    <h1>A forum.</h1>
     <ul>
       <% Message.all.each do |item| %>
-      <li><%= item.user %>: <%= item.content %></li>
+      <li><%= item.user.name %>: <%= item.content %></li>
       <% end %>
     </ul>
     <form action="/new_message">
+      User:<br>
+      <select name="user_id">
+        <% @users.each do |item| %>
+        <option value="<% item.id %>">
+          <%= item.name %>
+        </option>
+        <% end %>
+      </select>
       Content:<br>
       <input type="text" name="content">
       <br>
-      User:<br>
-      <input type="text" name="user"><br>
       <input type="image" src="images/submit.png" alt="Submit">
     </form>
   </body>
