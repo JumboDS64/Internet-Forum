@@ -11,7 +11,7 @@ Release 2.1.1 of Builder is mainly a bug fix release.
 
 * Fixed typo in XmlMarkup class docs (from Martin Fowler).
 
-* Fixed test on private methods to differentiate between targetted and
+* Fixed test on private methods to differentiate between targeted and
   untargetted private methods.
 
 * Removed legacy capture of @self in XmlBase (@self was used back when

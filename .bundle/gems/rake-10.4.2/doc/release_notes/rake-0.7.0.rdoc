@@ -17,7 +17,7 @@ are, I hope you enjoy them.
   is still available by setting the +external+ flag to true.
 
 * Rakefiles are now loaded with the expanded path to prevent
-  accidental polution from the Ruby load path.
+  accidental pollution from the Ruby load path.
 
 * Task objects my now be used in prerequisite lists directly.
 

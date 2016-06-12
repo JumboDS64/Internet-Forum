@@ -722,7 +722,7 @@ mixin](http://github.com/sinatra/sinatra/blob/ceac46f0bc129a6e994a06100aa854f606
 sendo [incluido dentro de um espaço
 principal](http://github.com/sinatra/sinatra/blob/ceac46f0bc129a6e994a06100aa854f606fe5992/lib/sinatra/main.rb#L28)
 
-## Linha de Comandos
+## Linha de Commandos
 
 As aplicações Sinatra podem ser executadas directamente:
 

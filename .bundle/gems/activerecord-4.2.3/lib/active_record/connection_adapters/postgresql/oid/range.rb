@@ -28,7 +28,7 @@ module ActiveRecord
               if from.respond_to?(:succ)
                 from = from.succ
                 ActiveSupport::Deprecation.warn(<<-MSG.squish)
-                  Excluding the beginning of a Range is only partialy supported
+                  Excluding the beginning of a Range is only partially supported
                   through `#succ`. This is not reliable and will be removed in
                   the future.
                 MSG

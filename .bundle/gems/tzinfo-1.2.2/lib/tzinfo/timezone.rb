@@ -318,7 +318,7 @@ module TZInfo
     # linking to (and creating an alias for) for America/New_York.
     #
     # Links are also used for time zones that are currently identical to a full 
-    # Zone, but that are administered seperately. For example, Europe/Vatican is
+    # Zone, but that are administered separately. For example, Europe/Vatican is
     # a Link to (and alias for) Europe/Rome.
     #
     # For a full Zone, canonical_zone returns self.

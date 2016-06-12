@@ -218,7 +218,7 @@ has good instructions for reinstalling ruby with the official Readline.
 
 == Credits
 * Csaba Hank for {providing the C extension}[http://www.creo.hu/~csaba/ruby/irb-enhancements/doc/files/README.html] which Bond uses to read Readline's full buffer.
-* Takao Kouji for {commiting}[http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/trunk/ext/readline/readline.c?view=diff&r1=24018&r2=24019] this Readline enhancement to ruby 1.9.2.
+* Takao Kouji for {committing}[http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/trunk/ext/readline/readline.c?view=diff&r1=24018&r2=24019] this Readline enhancement to ruby 1.9.2.
 * pd for compatibility with emacs' inf-ruby mode.
 * timcharper for improving extconf.rb.
 * headius and rking for jruby help

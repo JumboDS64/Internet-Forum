@@ -427,7 +427,7 @@ back.
 
   * Added hacks and skips to get clean test runs on maglev
   * Modified float tests for maglev float output differences. Not sure this is right. Not sure I care.
-  * Test for existance of diff.exe instead of assuming they have devkit. (blowmage/Cumbayah)
+  * Test for existence of diff.exe instead of assuming they have devkit. (blowmage/Cumbayah)
 
 === 4.4.0 / 2013-01-07
 

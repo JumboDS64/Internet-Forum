@@ -168,7 +168,7 @@ class ConfigTable
                      'the directory for ruby scripts' ] ],
     [ 'so-dir',    [ sodir,
                      'path',
-                     'the directory for ruby extentions' ] ],
+                     'the directory for ruby extensions' ] ],
     [ 'data-dir',  [ '$prefix/share',
                      'path',
                      'the directory for shared data' ] ],
@@ -180,10 +180,10 @@ class ConfigTable
                      'the ruby program using for installation' ] ],
     [ 'make-prog', [ makeprog,
                      'name',
-                     'the make program to compile ruby extentions' ] ],
+                     'the make program to compile ruby extensions' ] ],
     [ 'without-ext', [ 'no',
                        'yes/no',
-                       'does not compile/install ruby extentions' ] ]
+                       'does not compile/install ruby extensions' ] ]
   ]
   multipackage_descripters = [
     [ 'with',      [ '',
@@ -603,7 +603,7 @@ class ToplevelInstaller
     [ 'all',      'do config, setup, then install' ],
     [ 'config',   'saves your configurations' ],
     [ 'show',     'shows current configuration' ],
-    [ 'setup',    'compiles ruby extentions and others' ],
+    [ 'setup',    'compiles ruby extensions and others' ],
     [ 'install',  'installs files' ],
     [ 'clean',    "does `make clean' for each extention" ],
     [ 'distclean',"does `make distclean' for each extention" ]

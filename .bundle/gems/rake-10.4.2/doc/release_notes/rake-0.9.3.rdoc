@@ -16,7 +16,7 @@ a number of bug fixes.
   programatically add rake task libraries.
 
 * You can specific backtrace suppression patterns (see
-  --supress-backtrace)
+  --suppress-backtrace)
 
 * Directory tasks can now take prerequisites and actions
 
