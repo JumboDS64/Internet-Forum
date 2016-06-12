@@ -92,7 +92,7 @@ Sinatra irá utilizá-la.
     * [Rack Middleware](#rack-middleware)
     * [Testando](#testando)
     * [Sinatra::Base - Middleware, Bibliotecas e aplicativos modulares](#sinatrabase---middleware-bibliotecas-e-aplicativos-modulares)
-    * [Linha de comando](#linha-de-comando)
+    * [Linha de commando](#linha-de-commando)
     * [A última versão](#a-última-versão)
     * [Mais](#mais)
 
@@ -1659,7 +1659,7 @@ mixin](http://github.com/sinatra/sinatra/blob/ceac46f0bc129a6e994a06100aa854f606
 sendo [incluido dentro de um espaço
 principal](http://github.com/sinatra/sinatra/blob/ceac46f0bc129a6e994a06100aa854f606fe5992/lib/sinatra/main.rb#L28)
 
-## Linha de Comando
+## Linha de Commando
 
 Aplicações Sinatra podem ser executadas diretamente:
 

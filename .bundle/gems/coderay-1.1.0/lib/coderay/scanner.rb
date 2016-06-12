@@ -64,7 +64,7 @@ module CodeRay
       class << self
         
         # Normalizes the given code into a string with UNIX newlines, in the
-        # scanner's internal encoding, with invalid and undefined charachters
+        # scanner's internal encoding, with invalid and undefined characters
         # replaced by placeholders. Always returns a new object.
         def normalize code
           # original = code

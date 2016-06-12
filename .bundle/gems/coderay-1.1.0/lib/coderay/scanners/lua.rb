@@ -226,7 +226,7 @@ module Scanners
           state = :initial
         
         when :string
-          if match = scan(/[^\\#{start_delim}\n]+/) # Everything except \ and the start delimiter character is string content (newlines are only allowed if preceeded by \ or \z)
+          if match = scan(/[^\\#{start_delim}\n]+/) # Everything except \ and the start delimiter character is string content (newlines are only allowed if preceded by \ or \z)
             encoder.text_token(match, :content)
           elsif match = scan(/\\(?:['"abfnrtv\\]|z\s*|x\h\h|\d{1,3}|\n)/m)
             encoder.text_token(match, :char)

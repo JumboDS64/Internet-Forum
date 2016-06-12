@@ -47,7 +47,7 @@ class TiltTest < Minitest::Test
     assert_equal MockTemplate, impl
   end
 
-  test "looking up non-existant template class" do
+  test "looking up non-existent template class" do
     assert_nil Tilt['none']
   end
 

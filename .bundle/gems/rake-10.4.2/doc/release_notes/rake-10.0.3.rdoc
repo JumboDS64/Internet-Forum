@@ -92,7 +92,7 @@ we'll repeat the changes for versions 0.9.3 through 0.9.5 here.
   programatically add rake task libraries.
 
 * You can specific backtrace suppression patterns (see
-  --supress-backtrace)
+  --suppress-backtrace)
 
 * Directory tasks can now take prerequisites and actions
 

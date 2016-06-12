@@ -564,7 +564,7 @@ describe Rack::Utils::HeaderHash do
     h.delete("Foo").should.equal("bar")
   end
 
-  should "return nil when #delete is called on a non-existant key" do
+  should "return nil when #delete is called on a non-existent key" do
     h = Rack::Utils::HeaderHash.new("foo" => "bar")
     h.delete("Hello").should.be.nil
   end

@@ -1344,7 +1344,7 @@ end
 
 Pour renforcer la sécurité, les données de session dans le cookie sont signées
 avec une clé secrète de session. Une clé secrète est générée pour vous au
-hasard par Sinatra. Toutefois, comme cette clé change à chaque démarrage de
+hasard par Sinatra. Toutefois, comme cette clé change à chaque démarriage de
 votre application, vous pouvez définir cette clé vous-même afin que toutes
 les instances de votre application la partage :
 
@@ -2005,7 +2005,7 @@ devriez garder cela en tête si vous écrivez une méthode vraiment dingue.
 
 ## Configuration
 
-Lancé une seule fois au démarrage de tous les environnements :
+Lancé une seule fois au démarriage de tous les environnements :
 
 ``` ruby
 configure do

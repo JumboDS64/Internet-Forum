@@ -37,7 +37,7 @@
 * Removed extra directory indirection from legacy CVS to SVN move.
 * Removed some extraneous tabs from source.
 * Fixed test on private methods in blankslate to differentiate between
-  targetted and untargetted private methods.
+  targeted and untargetted private methods.
 * Removed legacy capture of @self in XmlBase (@self was used back when
   we used instance eval).
 * Added additional tests for global functions (both direct and included).

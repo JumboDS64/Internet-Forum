@@ -131,7 +131,7 @@ module ThreadSafe
   # index, or move with a power of two offset. We eliminate unnecessary node
   # creation by catching cases where old nodes can be reused because their next
   # fields won't change. On average, only about one-sixth of them need cloning
-  # when a table doubles. The nodes they replace will be garbage collectable as
+  # when a table doubles. The nodes they replace will be garbage collectible as
   # soon as they are no longer referenced by any reader thread that may be in
   # the midst of concurrently traversing table. Upon transfer, the old table bin
   # contains only a special forwarding node (with hash field +MOVED+) that

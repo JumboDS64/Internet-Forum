@@ -2651,7 +2651,7 @@ Las siguientes versiones de Ruby son soportadas oficialmente:
     con librerías de plantillas de terceras partes. Sin embargo, si elegís usar
     JRuby, deberías examinar sus Rack handlers porque el servidor web Thin no es
     soportado completamente. El soporte de JRuby para extensiones C se encuentra
-    en una etapa experimental, sin embargo, de momento, solamente RDiscount,
+    en una etapa experimental, sin embargo, de memento, solamente RDiscount,
     Redcarpet, RedCloth y Yajl, así como Thin y Mongrel se ven afectadas.
   </dd>
 </dl>
@@ -2678,7 +2678,7 @@ garantizar nada. De todas formas, podés contar con que tanto 1.9.4-p0 como
 Sinatra debería funcionar en cualquier sistema operativo soportado por la
 implementación de Ruby elegida.
 
-En este momento, no vas a poder ejecutar Sinatra en Cardinal, SmallRuby,
+En este memento, no vas a poder ejecutar Sinatra en Cardinal, SmallRuby,
 BlueRuby o cualquier versión de Ruby anterior a 1.8.7.
 
 ## A la Vanguardia
